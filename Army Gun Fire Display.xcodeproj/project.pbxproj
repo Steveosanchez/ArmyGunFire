@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D24F04DF1DBC6993002F5B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F04DE1DBC6993002F5B32 /* AppDelegate.swift */; };
+		D24F04E11DBC6993002F5B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F04E01DBC6993002F5B32 /* ViewController.swift */; };
+		D24F04E41DBC6993002F5B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24F04E21DBC6993002F5B32 /* Main.storyboard */; };
+		D24F04E71DBC6993002F5B32 /* Army_Gun_Fire_Display.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D24F04E51DBC6993002F5B32 /* Army_Gun_Fire_Display.xcdatamodeld */; };
+		D24F04E91DBC6993002F5B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24F04E81DBC6993002F5B32 /* Assets.xcassets */; };
+		D24F04EC1DBC6993002F5B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24F04EA1DBC6993002F5B32 /* LaunchScreen.storyboard */; };
+		D24F04F71DBC6993002F5B32 /* Army_Gun_Fire_DisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F04F61DBC6993002F5B32 /* Army_Gun_Fire_DisplayTests.swift */; };
+		D24F05021DBC6993002F5B32 /* Army_Gun_Fire_DisplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F05011DBC6993002F5B32 /* Army_Gun_Fire_DisplayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D24F04F31DBC6993002F5B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24F04D31DBC6993002F5B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24F04DA1DBC6993002F5B32;
+			remoteInfo = "Army Gun Fire Display";
+		};
+		D24F04FE1DBC6993002F5B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24F04D31DBC6993002F5B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24F04DA1DBC6993002F5B32;
+			remoteInfo = "Army Gun Fire Display";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D24F04DB1DBC6993002F5B32 /* Army Gun Fire Display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Army Gun Fire Display.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24F04DE1DBC6993002F5B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D24F04E01DBC6993002F5B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D24F04E31DBC6993002F5B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D24F04E61DBC6993002F5B32 /* Army_Gun_Fire_Display.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Army_Gun_Fire_Display.xcdatamodel; sourceTree = "<group>"; };
+		D24F04E81DBC6993002F5B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D24F04EB1DBC6993002F5B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D24F04ED1DBC6993002F5B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24F04F21DBC6993002F5B32 /* Army Gun Fire DisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Army Gun Fire DisplayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24F04F61DBC6993002F5B32 /* Army_Gun_Fire_DisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Army_Gun_Fire_DisplayTests.swift; sourceTree = "<group>"; };
+		D24F04F81DBC6993002F5B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24F04FD1DBC6993002F5B32 /* Army Gun Fire DisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Army Gun Fire DisplayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24F05011DBC6993002F5B32 /* Army_Gun_Fire_DisplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Army_Gun_Fire_DisplayUITests.swift; sourceTree = "<group>"; };
+		D24F05031DBC6993002F5B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24F04D81DBC6993002F5B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F04EF1DBC6993002F5B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F04FA1DBC6993002F5B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D24F04D21DBC6993002F5B32 = {
+			isa = PBXGroup;
+			children = (
+				D24F04DD1DBC6993002F5B32 /* Army Gun Fire Display */,
+				D24F04F51DBC6993002F5B32 /* Army Gun Fire DisplayTests */,
+				D24F05001DBC6993002F5B32 /* Army Gun Fire DisplayUITests */,
+				D24F04DC1DBC6993002F5B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D24F04DC1DBC6993002F5B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D24F04DB1DBC6993002F5B32 /* Army Gun Fire Display.app */,
+				D24F04F21DBC6993002F5B32 /* Army Gun Fire DisplayTests.xctest */,
+				D24F04FD1DBC6993002F5B32 /* Army Gun Fire DisplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D24F04DD1DBC6993002F5B32 /* Army Gun Fire Display */ = {
+			isa = PBXGroup;
+			children = (
+				D24F04DE1DBC6993002F5B32 /* AppDelegate.swift */,
+				D24F04E01DBC6993002F5B32 /* ViewController.swift */,
+				D24F04E21DBC6993002F5B32 /* Main.storyboard */,
+				D24F04E81DBC6993002F5B32 /* Assets.xcassets */,
+				D24F04EA1DBC6993002F5B32 /* LaunchScreen.storyboard */,
+				D24F04ED1DBC6993002F5B32 /* Info.plist */,
+				D24F04E51DBC6993002F5B32 /* Army_Gun_Fire_Display.xcdatamodeld */,
+			);
+			path = "Army Gun Fire Display";
+			sourceTree = "<group>";
+		};
+		D24F04F51DBC6993002F5B32 /* Army Gun Fire DisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				D24F04F61DBC6993002F5B32 /* Army_Gun_Fire_DisplayTests.swift */,
+				D24F04F81DBC6993002F5B32 /* Info.plist */,
+			);
+			path = "Army Gun Fire DisplayTests";
+			sourceTree = "<group>";
+		};
+		D24F05001DBC6993002F5B32 /* Army Gun Fire DisplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D24F05011DBC6993002F5B32 /* Army_Gun_Fire_DisplayUITests.swift */,
+				D24F05031DBC6993002F5B32 /* Info.plist */,
+			);
+			path = "Army Gun Fire DisplayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D24F04DA1DBC6993002F5B32 /* Army Gun Fire Display */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24F05061DBC6993002F5B32 /* Build configuration list for PBXNativeTarget "Army Gun Fire Display" */;
+			buildPhases = (
+				D24F04D71DBC6993002F5B32 /* Sources */,
+				D24F04D81DBC6993002F5B32 /* Frameworks */,
+				D24F04D91DBC6993002F5B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Army Gun Fire Display";
+			productName = "Army Gun Fire Display";
+			productReference = D24F04DB1DBC6993002F5B32 /* Army Gun Fire Display.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D24F04F11DBC6993002F5B32 /* Army Gun Fire DisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24F05091DBC6993002F5B32 /* Build configuration list for PBXNativeTarget "Army Gun Fire DisplayTests" */;
+			buildPhases = (
+				D24F04EE1DBC6993002F5B32 /* Sources */,
+				D24F04EF1DBC6993002F5B32 /* Frameworks */,
+				D24F04F01DBC6993002F5B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24F04F41DBC6993002F5B32 /* PBXTargetDependency */,
+			);
+			name = "Army Gun Fire DisplayTests";
+			productName = "Army Gun Fire DisplayTests";
+			productReference = D24F04F21DBC6993002F5B32 /* Army Gun Fire DisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D24F04FC1DBC6993002F5B32 /* Army Gun Fire DisplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24F050C1DBC6993002F5B32 /* Build configuration list for PBXNativeTarget "Army Gun Fire DisplayUITests" */;
+			buildPhases = (
+				D24F04F91DBC6993002F5B32 /* Sources */,
+				D24F04FA1DBC6993002F5B32 /* Frameworks */,
+				D24F04FB1DBC6993002F5B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24F04FF1DBC6993002F5B32 /* PBXTargetDependency */,
+			);
+			name = "Army Gun Fire DisplayUITests";
+			productName = "Army Gun Fire DisplayUITests";
+			productReference = D24F04FD1DBC6993002F5B32 /* Army Gun Fire DisplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24F04D31DBC6993002F5B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Apargo;
+				TargetAttributes = {
+					D24F04DA1DBC6993002F5B32 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6R6KLHR7Z9;
+						ProvisioningStyle = Automatic;
+					};
+					D24F04F11DBC6993002F5B32 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6R6KLHR7Z9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D24F04DA1DBC6993002F5B32;
+					};
+					D24F04FC1DBC6993002F5B32 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6R6KLHR7Z9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D24F04DA1DBC6993002F5B32;
+					};
+				};
+			};
+			buildConfigurationList = D24F04D61DBC6993002F5B32 /* Build configuration list for PBXProject "Army Gun Fire Display" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24F04D21DBC6993002F5B32;
+			productRefGroup = D24F04DC1DBC6993002F5B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D24F04DA1DBC6993002F5B32 /* Army Gun Fire Display */,
+				D24F04F11DBC6993002F5B32 /* Army Gun Fire DisplayTests */,
+				D24F04FC1DBC6993002F5B32 /* Army Gun Fire DisplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24F04D91DBC6993002F5B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F04EC1DBC6993002F5B32 /* LaunchScreen.storyboard in Resources */,
+				D24F04E91DBC6993002F5B32 /* Assets.xcassets in Resources */,
+				D24F04E41DBC6993002F5B32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F04F01DBC6993002F5B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F04FB1DBC6993002F5B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24F04D71DBC6993002F5B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F04E71DBC6993002F5B32 /* Army_Gun_Fire_Display.xcdatamodeld in Sources */,
+				D24F04E11DBC6993002F5B32 /* ViewController.swift in Sources */,
+				D24F04DF1DBC6993002F5B32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F04EE1DBC6993002F5B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F04F71DBC6993002F5B32 /* Army_Gun_Fire_DisplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F04F91DBC6993002F5B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F05021DBC6993002F5B32 /* Army_Gun_Fire_DisplayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D24F04F41DBC6993002F5B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24F04DA1DBC6993002F5B32 /* Army Gun Fire Display */;
+			targetProxy = D24F04F31DBC6993002F5B32 /* PBXContainerItemProxy */;
+		};
+		D24F04FF1DBC6993002F5B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24F04DA1DBC6993002F5B32 /* Army Gun Fire Display */;
+			targetProxy = D24F04FE1DBC6993002F5B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D24F04E21DBC6993002F5B32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24F04E31DBC6993002F5B32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D24F04EA1DBC6993002F5B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24F04EB1DBC6993002F5B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D24F05041DBC6993002F5B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D24F05051DBC6993002F5B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24F05071DBC6993002F5B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6R6KLHR7Z9;
+				INFOPLIST_FILE = "Army Gun Fire Display/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apargo.Army-Gun-Fire-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D24F05081DBC6993002F5B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6R6KLHR7Z9;
+				INFOPLIST_FILE = "Army Gun Fire Display/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apargo.Army-Gun-Fire-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D24F050A1DBC6993002F5B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6R6KLHR7Z9;
+				INFOPLIST_FILE = "Army Gun Fire DisplayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apargo.Army-Gun-Fire-DisplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Army Gun Fire Display.app/Army Gun Fire Display";
+			};
+			name = Debug;
+		};
+		D24F050B1DBC6993002F5B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6R6KLHR7Z9;
+				INFOPLIST_FILE = "Army Gun Fire DisplayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apargo.Army-Gun-Fire-DisplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Army Gun Fire Display.app/Army Gun Fire Display";
+			};
+			name = Release;
+		};
+		D24F050D1DBC6993002F5B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6R6KLHR7Z9;
+				INFOPLIST_FILE = "Army Gun Fire DisplayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apargo.Army-Gun-Fire-DisplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Army Gun Fire Display";
+			};
+			name = Debug;
+		};
+		D24F050E1DBC6993002F5B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6R6KLHR7Z9;
+				INFOPLIST_FILE = "Army Gun Fire DisplayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apargo.Army-Gun-Fire-DisplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Army Gun Fire Display";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24F04D61DBC6993002F5B32 /* Build configuration list for PBXProject "Army Gun Fire Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24F05041DBC6993002F5B32 /* Debug */,
+				D24F05051DBC6993002F5B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24F05061DBC6993002F5B32 /* Build configuration list for PBXNativeTarget "Army Gun Fire Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24F05071DBC6993002F5B32 /* Debug */,
+				D24F05081DBC6993002F5B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24F05091DBC6993002F5B32 /* Build configuration list for PBXNativeTarget "Army Gun Fire DisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24F050A1DBC6993002F5B32 /* Debug */,
+				D24F050B1DBC6993002F5B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24F050C1DBC6993002F5B32 /* Build configuration list for PBXNativeTarget "Army Gun Fire DisplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24F050D1DBC6993002F5B32 /* Debug */,
+				D24F050E1DBC6993002F5B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D24F04E51DBC6993002F5B32 /* Army_Gun_Fire_Display.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D24F04E61DBC6993002F5B32 /* Army_Gun_Fire_Display.xcdatamodel */,
+			);
+			currentVersion = D24F04E61DBC6993002F5B32 /* Army_Gun_Fire_Display.xcdatamodel */;
+			path = Army_Gun_Fire_Display.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D24F04D31DBC6993002F5B32 /* Project object */;
+}
