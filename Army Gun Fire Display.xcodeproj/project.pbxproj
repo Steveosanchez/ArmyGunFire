@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D208A1D41DC1C71100CA0C95 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24F05101DBC6ABB002F5B32 /* CoreBluetooth.framework */; };
 		D24F04DF1DBC6993002F5B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F04DE1DBC6993002F5B32 /* AppDelegate.swift */; };
 		D24F04E11DBC6993002F5B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F04E01DBC6993002F5B32 /* ViewController.swift */; };
 		D24F04E41DBC6993002F5B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24F04E21DBC6993002F5B32 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		D24F04EC1DBC6993002F5B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24F04EA1DBC6993002F5B32 /* LaunchScreen.storyboard */; };
 		D24F04F71DBC6993002F5B32 /* Army_Gun_Fire_DisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F04F61DBC6993002F5B32 /* Army_Gun_Fire_DisplayTests.swift */; };
 		D24F05021DBC6993002F5B32 /* Army_Gun_Fire_DisplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F05011DBC6993002F5B32 /* Army_Gun_Fire_DisplayUITests.swift */; };
+		D24F05161DBC6FDA002F5B32 /* AGFCoreBluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F05151DBC6FDA002F5B32 /* AGFCoreBluetoothManager.swift */; };
+		D24F05181DBC8289002F5B32 /* AFGCoreBluetoothManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F05171DBC8289002F5B32 /* AFGCoreBluetoothManagerDelegate.swift */; };
+		D2ACE4FD1DC1AC55007B80F8 /* AFGPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACE4FC1DC1AC55007B80F8 /* AFGPeripheral.swift */; };
+		D2ACE4FF1DC1B9A1007B80F8 /* ScanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACE4FE1DC1B9A1007B80F8 /* ScanTableViewController.swift */; };
+		D2B3486A1DCFF36D006B9B49 /* PeripheralInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B348691DCFF36D006B9B49 /* PeripheralInteractionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		D24F04FD1DBC6993002F5B32 /* Army Gun Fire DisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Army Gun Fire DisplayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24F05011DBC6993002F5B32 /* Army_Gun_Fire_DisplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Army_Gun_Fire_DisplayUITests.swift; sourceTree = "<group>"; };
 		D24F05031DBC6993002F5B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24F05101DBC6ABB002F5B32 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D24F05151DBC6FDA002F5B32 /* AGFCoreBluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGFCoreBluetoothManager.swift; sourceTree = "<group>"; };
+		D24F05171DBC8289002F5B32 /* AFGCoreBluetoothManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFGCoreBluetoothManagerDelegate.swift; sourceTree = "<group>"; };
+		D2ACE4FC1DC1AC55007B80F8 /* AFGPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFGPeripheral.swift; sourceTree = "<group>"; };
+		D2ACE4FE1DC1B9A1007B80F8 /* ScanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanTableViewController.swift; sourceTree = "<group>"; };
+		D2B348691DCFF36D006B9B49 /* PeripheralInteractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralInteractionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D208A1D41DC1C71100CA0C95 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,7 @@
 				D24F04F51DBC6993002F5B32 /* Army Gun Fire DisplayTests */,
 				D24F05001DBC6993002F5B32 /* Army Gun Fire DisplayUITests */,
 				D24F04DC1DBC6993002F5B32 /* Products */,
+				D24F050F1DBC6ABB002F5B32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +120,11 @@
 				D24F04EA1DBC6993002F5B32 /* LaunchScreen.storyboard */,
 				D24F04ED1DBC6993002F5B32 /* Info.plist */,
 				D24F04E51DBC6993002F5B32 /* Army_Gun_Fire_Display.xcdatamodeld */,
+				D24F05151DBC6FDA002F5B32 /* AGFCoreBluetoothManager.swift */,
+				D24F05171DBC8289002F5B32 /* AFGCoreBluetoothManagerDelegate.swift */,
+				D2ACE4FC1DC1AC55007B80F8 /* AFGPeripheral.swift */,
+				D2ACE4FE1DC1B9A1007B80F8 /* ScanTableViewController.swift */,
+				D2B348691DCFF36D006B9B49 /* PeripheralInteractionViewController.swift */,
 			);
 			path = "Army Gun Fire Display";
 			sourceTree = "<group>";
@@ -126,6 +145,14 @@
 				D24F05031DBC6993002F5B32 /* Info.plist */,
 			);
 			path = "Army Gun Fire DisplayUITests";
+			sourceTree = "<group>";
+		};
+		D24F050F1DBC6ABB002F5B32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D24F05101DBC6ABB002F5B32 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +225,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 6R6KLHR7Z9;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					D24F04F11DBC6993002F5B32 = {
 						CreatedOnToolsVersion = 8.0;
@@ -265,9 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24F05161DBC6FDA002F5B32 /* AGFCoreBluetoothManager.swift in Sources */,
 				D24F04E71DBC6993002F5B32 /* Army_Gun_Fire_Display.xcdatamodeld in Sources */,
+				D2ACE4FD1DC1AC55007B80F8 /* AFGPeripheral.swift in Sources */,
+				D2ACE4FF1DC1B9A1007B80F8 /* ScanTableViewController.swift in Sources */,
 				D24F04E11DBC6993002F5B32 /* ViewController.swift in Sources */,
+				D24F05181DBC8289002F5B32 /* AFGCoreBluetoothManagerDelegate.swift in Sources */,
 				D24F04DF1DBC6993002F5B32 /* AppDelegate.swift in Sources */,
+				D2B3486A1DCFF36D006B9B49 /* PeripheralInteractionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +454,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6R6KLHR7Z9;
 				INFOPLIST_FILE = "Army Gun Fire Display/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -430,6 +469,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6R6KLHR7Z9;
 				INFOPLIST_FILE = "Army Gun Fire Display/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -516,6 +557,7 @@
 				D24F05081DBC6993002F5B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D24F05091DBC6993002F5B32 /* Build configuration list for PBXNativeTarget "Army Gun Fire DisplayTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +566,7 @@
 				D24F050B1DBC6993002F5B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D24F050C1DBC6993002F5B32 /* Build configuration list for PBXNativeTarget "Army Gun Fire DisplayUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +575,7 @@
 				D24F050E1DBC6993002F5B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
